@@ -1,7 +1,7 @@
 clc;
 close all;
 
-T = 10;
+T = 50;
 step = 0.01; 
 
 
