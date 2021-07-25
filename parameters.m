@@ -1,16 +1,18 @@
 clc;
 close all;
 
-T = 50;
+T = 20;
 step = 0.01; 
 
 
-M1  = 350; % kg - 1/4 car
-M2 = 50; % kg - suspension mass
+M1  = 2500; % kg - 1/4 car
+M2 = 320; % kg - suspension mass
 
 
-k1 = 8000;
-k2 = 50000;
+k1 = 80000;
+k2 = 500000;
 
-b1 = 35;
-b2 = 1500;
+b1 = 350;
+b2 = 15020;
+
+K = [0 2.3e6 5e8 0 8e6]
